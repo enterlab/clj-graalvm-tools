@@ -12,6 +12,13 @@ Currently can be used to create script that copies all dependencies from Maven r
 
 `lein repl`
 
+Then:
+
+```clojure
+(require 'clj-graalvm-tools.core)
+(in-ns 'clj-graalvm-tools.core)
+```
+
 Then find the source project folder you want GraalVM'ified.
 
 Then you simply generate the file, like this:
